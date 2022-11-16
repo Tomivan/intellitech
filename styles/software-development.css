@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    height: 5vh;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-left: 1em;
+}
+li a {
+    text-decoration: none;
+    color: #000000;
+}
+.get-a-quote{
+    background: #0077b5;
+    color: #ffffff;
+    height: 5vh;
+    width: 7vw;
+    border: none;
+    border-radius: 5px;
+}
+h1{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 40px;
+}
+.software{
+    margin: 3% 0 0 4%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin-top: 3%;
+}
+.card{
+    width: 30vw;
+    margin: 0 2% 2% 0;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #f2f2f2;
+}
+.boxes p:nth-child(1){
+    color: #0077b5;
+    text-transform: uppercase;
+}
+.need-our-service{
+    text-align: center;
+    background: #0077b5;
+    color: #ffffff;
+    padding: 1em;
+}
+.footer{
+    padding: 1em;
+}
+.footer-top, .right{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-card{
+    margin-right: 5%;
+    width: 10vw;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 5%;
+}

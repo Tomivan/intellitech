@@ -16,6 +16,10 @@ ul{
 li{
     margin-left: 1em;
 }
+li a {
+    text-decoration: none;
+    color: #000000;
+}
 .get-a-quote, .learn-more{
     background: #0077b5;
     color: #ffffff;
