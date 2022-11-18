@@ -2,36 +2,35 @@ h1{
     color: #ffffff;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 35%;
     font-size: 40px;
 }
-.software{
+.network{
     margin: 3% 0 0 4%;
 }
 .cards{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 1em;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .card{
     width: 30vw;
-    margin: 0 2% 2% 0;
+    margin-right: 2%;
     text-align: center;
 }
-.boxes{
+.data-security{
     display: flex;
     justify-content: space-between;
     padding: 1em;
     background: #f2f2f2;
 }
-.boxes p:nth-child(1){
-    color: #0077b5;
-    text-transform: uppercase;
+.box{
+    margin-top: 3%;
 }
-.need-our-service{
-    text-align: center;
-    background: #0077b5;
-    color: #ffffff;
-    padding: 1em;
+h2{
+    color: #0077b5;
+}
+.check{
+    margin-right: 2%;
 }
