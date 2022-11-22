@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.text{
+    width: 50vw;
+}
+.about-image{
+    height: 40vh;
+    margin: 3% 0 0 10%;
+}
+.heading{
+    color: #0077b5;
+    font-weight: bold;
+    font-size: 20px;
+}
+.choose-us{
+    text-align: center;
+    padding: 1em;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    width: 22vw;
+    margin-right: 3%;
+}
+.goals{
+    display: flex;
+}
+.card{
+    width: 25vw;
+    padding: 1em;
+    height: 35vh;
+    text-align: center;
+}
+.card:nth-of-type(odd) {
+    background: #0077b5;
+    color: #ffffff;
+}
+.card:nth-of-type(even){
+    background: #f2f8fb;
+}
+.goals-image{
+    margin-top: 20%;
+}
+.partners{
+    text-align: center;
+    padding: 1em;
+}
+.partner-logo{
+    margin-right: 5%;
+}

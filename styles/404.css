@@ -1,0 +1,22 @@
+.main{
+    padding: 1em;
+    text-align: center;
+    background: #f2f2f2;
+}
+.not-found{
+    height: 50vh;
+    margin-top: 5%;
+}
+.homepage{
+    background: #0077b5;
+    color: #ffffff;
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}

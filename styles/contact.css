@@ -1,0 +1,54 @@
+.contact{
+    width: 100%;
+}
+.main{
+    padding: 3em;
+    background: #f2f2f2;
+}
+h1{
+    color: #0077b5;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 30vw;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    margin-bottom: 2%;
+}
+textarea{
+    border: none;
+    border-radius: 5px;
+    height: 30vh;
+    margin-bottom: 2%;
+}
+.message{
+    background: #0077b5;
+    color: #ffffff;
+    height: 5vh;
+    width: 15vw;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+.card{
+    background: #0077b5;
+    color: #ffffff;
+    padding: 1em;
+    margin-top: 5%;
+    border-radius: 5px;
+    height: 35vh;
+    width: 18vw;
+}
+.icon{
+    margin: 5% 2% 0 0;
+    height: 2vh;
+}

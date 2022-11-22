@@ -1,0 +1,36 @@
+.sales{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: #ffffff;
+    text-align: center;
+}
+h1{
+    font-family: 64px;
+    font-weight: bold;
+}
+.text p{
+    font-size: 28px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin-left: 7%;
+}
+.card{
+    width: 28vw;
+    margin-right: 2%;
+}
+.heading{
+    color: #0077b5;
+}
+.card-image{
+    margin-left: 10%;
+}
+.cards + .get-a-quote{
+    margin-left: 48%;
+}

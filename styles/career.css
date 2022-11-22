@@ -1,0 +1,63 @@
+.career{
+    margin: 3% 0 0 5%;
+}
+.text{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    background: #ffffff;
+    padding: 1em;
+    width: 25vw;
+    height: 30vh;
+    opacity: 0.85;
+}
+.explore{
+    background: #0077b5;
+    color: #ffffff;
+    height: 5vh;
+    width: 12vw;
+    border: none;
+    border-radius: 5px;
+}
+.section{
+    text-align: center;
+    padding: 1em;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+.card{
+    width: 28vw;
+    margin-right: 2%;
+    text-align: left;
+}
+.heading{
+    color: #0077b5;
+    font-weight: bold;
+}
+.vacancies{
+    text-align: center;
+    background: #f2f2f2;
+    padding: 1em;
+}
+h2{
+    margin-top: 5%;
+    color: #0077b5;
+}
+table{
+    margin-left: 20%;
+    width: 60vw;
+    text-align: left;
+    padding: 1em;
+}
+tr{
+    height: 6vh;
+    padding: 1em;
+    background: #ffffff;
+    margin-bottom: 5%;
+}
+a{
+    color: #0077b5;
+}

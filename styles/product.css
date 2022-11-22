@@ -1,0 +1,25 @@
+.text{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+h1{
+    font-size: 40px;
+}
+.product{
+    margin: 3% 0 0 4%;
+    width: 92%;
+    border-radius: 5px;
+}
+.section{
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 5%;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
