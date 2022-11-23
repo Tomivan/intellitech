@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.consultancy{
+    height: 50vh;
+    margin-left: 5%;
+}
+.main .right{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+h1{
+    color: #0077b5;
+}
+.section{
+    display: flex;
+    padding: 1em;
+    background: #0077b5;
+    color: #ffffff;
+}
+.section .left{
+    height: 10vh;
+    margin: 7% 0 0 10%;
+}
+.pose{
+    height: 50vh;
+    margin-left: 10%;
+}
+.center{
+    text-align: center;
+    margin-top: 3%;
+}
+.cards{
+    display: flex;
+    padding: 1em;
+    margin-left: 5%;
+}
+.card{
+    width: 30vw;
+    margin-right: 2%;
+}
+.heading{
+    color: #0077b5;
+    font-weight: bold;
+}
