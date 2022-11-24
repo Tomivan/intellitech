@@ -24,6 +24,9 @@ h1{
     justify-content: space-between;
     padding: 1em;
 }
+.learn-more a{
+    color: #ffffff;
+}
 .heading{
     color: #0077b5;
 }
@@ -84,8 +87,4 @@ h1{
 }
 .customer-image{
     padding-left: 1em;
-}
-a{
-    text-decoration: none;
-    color: #000000;
 }

@@ -16,7 +16,7 @@ ul{
 li{
     margin-left: 1em;
 }
-li a {
+a{
     text-decoration: none;
     color: #000000;
 }
@@ -42,4 +42,30 @@ li a {
 .footer-bottom{
     text-align: center;
     margin-top: 5%;
+}
+@media only screen and (max-width: 768px) {
+    .nav, .main, .about-us, .partners, .services, .boxes, .footer-top{
+        flex-direction: column;
+    }
+    .get-a-quote, .learn-more, .read-more{
+        width: 50vw;
+    }
+    .nav{
+        margin-bottom: 15%;
+    }
+    .partner-logo{
+        margin-bottom: 1em;
+        height: 8vh;
+    }
+    .cards{
+        margin-top: 5%;
+        width: 100%;
+    }
+    .card, .box{
+        width: 90vw;
+        margin-left: 5%;
+    }
+    section{
+        text-align: center;
+    }
 }
